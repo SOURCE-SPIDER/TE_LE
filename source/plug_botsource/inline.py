@@ -32,7 +32,7 @@ async def answer(client, inline_query):
             InlineQueryResultArticle(
                 title="اوامر البوت",
                 input_message_content=InputTextMessageContent(
-                    "⎈ اهلا بك في اوامر تيلثون سيڤين\n⎈ ① اوامر الخاص\n⎈ ② اوامر القنوات والمجموعات \n⎈ ③ اوامر اليوتيوب \n⎈ ④ اوامر الاذاعه\n⎈ ⑤ اوامر التسليه \n⎈ ⑥ اوامر اضافيه"
+                    "⎈ اهلا بك في اوامر تيلثون SEVEN\n▾∮ ① اوامر الخاص\n▾∮ ② اوامر القنوات والمجموعات \n▾∮ ③ اوامر اليوتيوب \n▾∮ ④ اوامر الاذاعه\n▾∮ ⑤ اوامر التسليه \n▾∮ ⑥ اوامر اضافيه"
                 ),
                 url="https://t.me/EE_20",
                 description="SOURCE SEVEN",
