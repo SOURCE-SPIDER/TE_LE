@@ -95,7 +95,7 @@ async def help6(client, callback_query):
   await callback_query.edit_message_text(txx6,reply_markup=reply_markup)
 @bot.on_callback_query(filters.regex("^help$"))
 async def back(client, callback_query):
-  await callback_query.edit_message_text("⎈ اهلا SEVEN بك في اوامر تيلثون\n⎈ ① اوامر الخاص\n⎈ ② اوامر القنوات والمجموعات \n⎈ ③ اوامر اليوتيوب \n⎈ ④ اوامر الاذاعه\n⎈ ⑤ اوامر التسليه \n⎈ ⑥ اوامر اضافيه",reply_markup = InlineKeyboardMarkup(
+  await callback_query.edit_message_text("⎈ اهلا بك في اوامر تيلثون SEVEN\n▾∮ ① اوامر الخاص\n▾∮ ② اوامر القنوات والمجموعات \n▾∮ ③ اوامر اليوتيوب \n▾∮ ④ اوامر الاذاعه\n▾∮ ⑤ اوامر التسليه \n▾∮ ⑥ اوامر اضافيه",reply_markup = InlineKeyboardMarkup(
             [[
              InlineKeyboardButton("①",callback_data="help1"),
              InlineKeyboardButton("②",callback_data="help2"),
